@@ -1,7 +1,10 @@
+print ('Введите кол-во столбцов')
 n=int(input())
+print ('Введите кол-во строк')
 m=int(input())
+print ('Введите искомое число')
 val=int(input())
-
+print ('Введите матрицу')
 mas=[[int(i) for i in input().split()]for j in range(n)]
 
 for k,i in enumerate(mas):
